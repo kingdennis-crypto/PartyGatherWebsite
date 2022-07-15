@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon - Partygather</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" >
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous" defer></script>
+  <script src="script.js" type="module" defer></script>
+  
+</head>
+<body>
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+      <div class="col-lg-6 col-sm-12" style="background-color: #F9F9F9;">
+        <div class="row d-flex justify-content-center pt-5">
+          <div class="col-8">
+            <h1 class="w200">Do you feel lost and overwhelmed when planning parties?</h1>
+            <p class="w200">If you wanna plan a party with lots of people you need to contact everyone and check if they are available on that day. Which can be a hassle.</p>
+            <p class="w200">The phone is a great invention that made us closer but also made everything more complex.</p>
+            <p class="w200">No doubt why so many people become <span class="w500">overwhelmed</span> with planning parties with more than a dozen people.</p>
+            <p class="w200">The good news is...</p>
+            <h3 class="w500">We are working to solve this problem and help you navigate the complex world of organizing a party.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12" style="background-color: #5A4496; position: relative; overflow: hidden;">
+        <div class="row d-flex flex-grow-1 justify-content-center pt-5">
+          <div class="col-8 text-white">
+            <h1 class="w300">Join the waitlist!</h1>
+            <p class="w200">By signing up to the waitlist you will be notified on any milestones and get early access.</p>
+            <form class="emailListContainer containerGap pt-3" id="emailListForm" action="">
+              <input type="text" class="emailInput" id="firstName" placeholder="First Name" required>
+              <input type="email" class="emailInput" id="email" placeholder="Email" required>
+              <div class="emailListContainer">
+                <button class="subscribeButton">Subscribe</button>
+                <small class="privacyText w100">We respect your privacy. Unsubscribe at any time.</small>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer">
+          <button class="btn btn-primary" id="languageToggle">Verander naar Nederlands</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
